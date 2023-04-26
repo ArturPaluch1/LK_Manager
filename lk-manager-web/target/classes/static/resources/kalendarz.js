@@ -50,11 +50,12 @@ day.onclick = function()
 
 
   let pickedDate = new Date()
-pickedDate.setDate(i-1 );
+pickedDate.setDate(day.innerText);
 pickedDate.setMonth(month);
 pickedDate.setYear(year);
 //if(currDate)
 //alert(pickedDate+"   "+currDate)
+
 if(pickedDate<currDate)
 {alert("Data rozpoczęcia nie może być wcześniejsza od dzisiaj")
 }
