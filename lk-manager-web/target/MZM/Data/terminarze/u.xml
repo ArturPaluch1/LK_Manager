@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<terminarz>
+    <Runda data="2023-02-09" nr="1" status="nierozegrana">
+        <Match id="0" opponentMatchResult1="" opponentMatchResult2="" typeId="0" userMatchResult1="" userMatchResult2="">
+            <user userId="8521390" username="szuram">
+                <Team teamId="408692" teamName="KS Bukowe"/>
+            </user>
+            <opponentUser userId="8249759" username="kamilosin">
+                <Team teamId="400994" teamName="FC Mazovia"/>
+            </opponentUser>
+        </Match>
+    </Runda>
+</terminarz>

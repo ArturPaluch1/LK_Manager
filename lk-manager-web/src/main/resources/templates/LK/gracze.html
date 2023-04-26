@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{fragments/layout :: layout (~{::body},'home')}" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+
+
+</head>
+<body class="light">
+<form method="post" th:object="${gracze}">
+    <br>
+    <button class="btn btn-primary" formaction="/usunGracza" type="submit">Usuń</button>
+
+
+    <input name="wybranyGracz" type="text"/>
+
+
+    <button class="btn btn-primary" formaction="/dodajGracza" type="submit">Dodaj</button>
+    <br>
+    <br/>
+
+
+    <label>Gracze:</label><br>
+    <div class="table-responsive" th:if="${not #lists.isEmpty(gracze)}">
+        <table class="table table-hover">
+            <thead class="thead-inverse">
+
+            </thead>
+            <tr th:each="item: ${gracze}">
+
+
+            </tr>
+
+            <th:block th:each="item : ${gracze}">
+                <input name="wybraniGracze" th:value="${item.getUsername()}" type="checkbox"/>
+                <label th:text="${item.getUsername()}"></label>
+                <br>
+
+            </th:block>
+
+
+        </table>
+
+
+    </div>
+</form>
+
+
+</body>
+</html>
+

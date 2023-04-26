@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<terminarz>
+    <Runda data="2023-01-09" nr="1" status="nierozegrana">
+        <Match id="0" opponentMatchResult1="22" opponentMatchResult2="22" typeId="0" userMatchResult1="22" userMatchResult2="22">
+            <user userId="8160724" username="mnowak">
+                <Team teamId="391090" teamName="Lekko Spoceni"/>
+            </user>
+            <opponentUser userId="1154416" username="harry84">
+                <Team teamId="406799" teamName="Harry Noble House FC"/>
+            </opponentUser>
+        </Match>
+        <Match id="0" opponentMatchResult1="11" opponentMatchResult2="11" typeId="0" userMatchResult1="11" userMatchResult2="11">
+            <user userId="5680419" username="speedylfc">
+                <Team teamId="378610" teamName="Fala Szczecin"/>
+            </user>
+            <opponentUser userId="7672431" username="jerzykw">
+                <Team teamId="106223" teamName="FC Harnaś Sanok"/>
+            </opponentUser>
+        </Match>
+    </Runda>
+    <Runda data="2023-01-16" nr="2" status="nierozegrana">
+        <Match id="0" opponentMatchResult1="" opponentMatchResult2="" typeId="0" userMatchResult1="" userMatchResult2="">
+            <user userId="8160724" username="mnowak">
+                <Team teamId="391090" teamName="Lekko Spoceni"/>
+            </user>
+            <opponentUser userId="7672431" username="jerzykw">
+                <Team teamId="106223" teamName="FC Harnaś Sanok"/>
+            </opponentUser>
+        </Match>
+        <Match id="0" opponentMatchResult1="22" opponentMatchResult2="22" typeId="0" userMatchResult1="22" userMatchResult2="22">
+            <user userId="1154416" username="harry84">
+                <Team teamId="406799" teamName="Harry Noble House FC"/>
+            </user>
+            <opponentUser userId="5680419" username="speedylfc">
+                <Team teamId="378610" teamName="Fala Szczecin"/>
+            </opponentUser>
+        </Match>
+    </Runda>
+    <Runda data="2023-01-23" nr="3" status="nierozegrana">
+        <Match id="0" opponentMatchResult1="33" opponentMatchResult2="33" typeId="0" userMatchResult1="33" userMatchResult2="33">
+            <user userId="8160724" username="mnowak">
+                <Team teamId="391090" teamName="Lekko Spoceni"/>
+            </user>
+            <opponentUser userId="5680419" username="speedylfc">
+                <Team teamId="378610" teamName="Fala Szczecin"/>
+            </opponentUser>
+        </Match>
+        <Match id="0" opponentMatchResult1="33" opponentMatchResult2="33" typeId="0" userMatchResult1="33" userMatchResult2="33">
+            <user userId="7672431" username="jerzykw">
+                <Team teamId="106223" teamName="FC Harnaś Sanok"/>
+            </user>
+            <opponentUser userId="1154416" username="harry84">
+                <Team teamId="406799" teamName="Harry Noble House FC"/>
+            </opponentUser>
+        </Match>
+    </Runda>
+</terminarz>
