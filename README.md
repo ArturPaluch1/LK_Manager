@@ -47,7 +47,7 @@ A także kopiować terminarz danej kolejki do schowka w celu wklejenia par na fo
 </div>
 </details>
 Po rozegraniu meczy w Managerzone użytkownik przyciskiem Aktualizuj wyniki może pobrać wyniki danej rundy bezpośrednio ze strony gry w postaci xml. 
-<details >
+<details>
  <summary>Wyniki puste</summary>
 <a href="https://ibb.co/zXyVVMF"><img src="https://i.ibb.co/bsS550F/wyniki-uzupeln.png" alt="wyniki-uzupeln" border="0"></a>
 </div>
